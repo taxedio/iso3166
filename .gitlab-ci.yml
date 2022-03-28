@@ -19,34 +19,15 @@ include:
 
 golangci-lint:
   image: $GOLINT_DOCKER_IMAGE
-  stage: lint
+  stage: test
   timeout: 5m
   script:
     - golangci-lint run -v --timeout 5m
   only:
     - main
-    - staging
 
 unit_tests:
   image: $GO_DOCKER_IMAGE
   stage: test
   script:
     - go test ./... | grep -v /datasources/
-
-code_coverage:
-  image: $GO_DOCKER_IMAGE
-  stage: test
-  script:
-    - make coverage
-  only:
-    - main
-    - staging
-
-code_coverage_report:
-  image: $GO_DOCKER_IMAGE
-  stage: test
-  script:
-    - make coverhtml
-  only:
-    - main
-    - staging
