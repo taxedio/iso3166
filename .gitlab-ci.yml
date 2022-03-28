@@ -7,7 +7,46 @@
 # See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
 stages:
 - test
+
+variables: 
+  GO_VERSION: "1.17.6"
+  GO_DOCKER_IMAGE: "golang:${GO_VERSION}"
+
 sast:
   stage: test
 include:
-- template: Security/SAST.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+
+golangci-lint:
+  image: $GOLINT_DOCKER_IMAGE
+  stage: lint
+  timeout: 5m
+  script:
+    - golangci-lint run -v --timeout 5m
+  only:
+    - main
+    - staging
+
+unit_tests:
+  image: $GO_DOCKER_IMAGE
+  stage: test
+  script:
+    - go test ./... | grep -v /datasources/
+
+code_coverage:
+  image: $GO_DOCKER_IMAGE
+  stage: test
+  script:
+    - make coverage
+  only:
+    - main
+    - staging
+
+code_coverage_report:
+  image: $GO_DOCKER_IMAGE
+  stage: test
+  script:
+    - make coverhtml
+  only:
+    - main
+    - staging

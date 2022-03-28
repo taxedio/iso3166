@@ -37,6 +37,10 @@ func Alpha3Match(s string) *string {
 			returnStr = fmt.Sprintf("%v", val.alph3)
 			return &returnStr
 		}
+		if s == strings.ToLower(strings.TrimSpace(val.numCode)) {
+			returnStr = fmt.Sprintf("%v", val.alph3)
+			return &returnStr
+		}
 	}
 	return nil
 }
@@ -58,6 +62,10 @@ func Alpha2Match(s string) *string {
 			return &returnStr
 		}
 		if s == strings.ToLower(strings.TrimSpace(val.enName)) || s == strings.ToLower(strings.TrimSpace(val.frName)) {
+			returnStr = fmt.Sprintf("%v", val.alph2)
+			return &returnStr
+		}
+		if s == strings.ToLower(strings.TrimSpace(val.numCode)) {
 			returnStr = fmt.Sprintf("%v", val.alph2)
 			return &returnStr
 		}
@@ -94,6 +102,16 @@ func StructMatch(s string) *IsoEntry {
 			return &entry
 		}
 		if s == strings.ToLower(strings.TrimSpace(val.enName)) || s == strings.ToLower(strings.TrimSpace(val.frName)) {
+			entry = IsoEntry{
+				enName:  val.enName,
+				frName:  val.frName,
+				alph2:   val.alph2,
+				alph3:   val.alph3,
+				numCode: val.numCode,
+			}
+			return &entry
+		}
+		if s == strings.ToLower(strings.TrimSpace(val.numCode)) {
 			entry = IsoEntry{
 				enName:  val.enName,
 				frName:  val.frName,

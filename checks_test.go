@@ -60,6 +60,7 @@ func TestAlpha3Match(t *testing.T) {
 		want *string
 	}{
 		{"GBR Test", args{s: "gb"}, &GBR},
+		{"GBR Num Test", args{s: "826"}, &GBR},
 		{"USA upper Test", args{s: "USA"}, &USA},
 		{"Nothing Test", args{s: ""}, Nil},
 		{"Åland Islands Test", args{s: "Aland Islands"}, &ALA},
@@ -86,6 +87,7 @@ func TestAlpha2Match(t *testing.T) {
 		want *string
 	}{
 		{"GBR Test", args{s: "gb"}, &GB},
+		{"GBR Num Test", args{s: "826"}, &GB},
 		{"USA upper Test", args{s: "USA"}, &US},
 		{"Nothing Test", args{s: ""}, Nil},
 		{"Åland Islands Test", args{s: "Aland Islands"}, &AX},
@@ -111,8 +113,8 @@ func TestStructMatch(t *testing.T) {
 		args args
 		want *IsoEntry
 	}{
-
 		{"GBR Test", args{s: "gb"}, &GBRStruct},
+		{"GBR Test", args{s: "826"}, &GBRStruct},
 		{"USA upper Test", args{s: "USA"}, &USAStruct},
 		{"Nothing Test", args{s: ""}, NilStruct},
 		{"Åland Islands Test", args{s: "Aland Islands"}, &ALAStruct},
