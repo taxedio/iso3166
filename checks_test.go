@@ -1,4 +1,4 @@
-package main
+package iso3166
 
 import (
 	"reflect"
