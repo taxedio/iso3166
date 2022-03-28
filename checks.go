@@ -1,4 +1,4 @@
-package main
+package iso3166
 
 import (
 	"fmt"
@@ -10,6 +10,7 @@ import (
 	"golang.org/x/text/unicode/norm"
 )
 
+// Removes Diacritics from submitted string
 func convertDia(s string) string {
 	t := transform.Chain(norm.NFD, runes.Remove(runes.In(unicode.Mn)), norm.NFC)
 	s, _, _ = transform.String(t, s)
@@ -74,7 +75,7 @@ func Alpha2Match(s string) *string {
 }
 
 // Check map for Alpha3 Match and return ISO
-// example, "gb" will return GBR Struct 
+// example, "gb" will return GBR Struct
 func StructMatch(s string) *IsoEntry {
 	var (
 		entry IsoEntry
