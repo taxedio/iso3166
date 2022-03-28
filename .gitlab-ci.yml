@@ -10,7 +10,8 @@ stages:
 
 variables: 
   GO_VERSION: "1.17.6"
-  GO_DOCKER_IMAGE: "golang:${GO_VERSION}"
+  GO_DOCKER_IMAGE: "golang:$GO_VERSION"
+  GOLINT_DOCKER_IMAGE: "golangci/golangci-lint:v1.27.0"
 
 sast:
   stage: test
