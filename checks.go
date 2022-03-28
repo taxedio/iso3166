@@ -45,7 +45,7 @@ func Alpha3Match(s string) *string {
 	return nil
 }
 
-// Check map for Alpha3 Match and return ISO
+// Check map for Alpha2 Match and return ISO
 // example, "gb" will return "GB"
 func Alpha2Match(s string) *string {
 	var (
@@ -74,7 +74,7 @@ func Alpha2Match(s string) *string {
 }
 
 // Check map for Alpha3 Match and return ISO
-// example, "gb" will return "GB"
+// example, "gb" will return GBR Struct 
 func StructMatch(s string) *IsoEntry {
 	var (
 		entry IsoEntry
