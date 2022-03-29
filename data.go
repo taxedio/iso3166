@@ -1,6 +1,6 @@
 package iso3166
 
-type IsoEntry struct {
+type ISOEntry struct {
 	enName  string
 	frName  string
 	alph2   string
@@ -9,7 +9,7 @@ type IsoEntry struct {
 }
 
 var (
-	isocodes = map[string]IsoEntry{
+	isocodes = map[string]ISOEntry{
 		"AF": {
 			enName:  "Afghanistan",
 			frName:  "Afghanistan (l')",
