@@ -24,16 +24,74 @@ This package provides the latest ISO-3166 codes (<a href="https://www.iso.org/is
 package main
 
 import (
-  "fmt"
-  "github.com/taxedio/iso3166"
+	"fmt"
+
+	"github.com/taxedio/iso3166"
 )
 
-fmt.Println(iso3166.Alpha3Match("afghanistan"))
-fmt.Println(iso3166.Alpha2Match("afghanistan"))
+var (
+	enName  string = "Albania"
+	frName  string = "Albanie (l')"
+	alph2   string = "AL"
+	alph3   string = "ALB"
+	numCode string = "008"
+)
 
+func main() {
+	// English Names, codes can be found via English name (enName in Struct)
+	fmt.Printf(`iso3166.Alpha3Match("Albania") - %v`, *iso3166.Alpha3Match(enName))
+	fmt.Printf(`iso3166.Alpha2Match("Albania") - %v`, *iso3166.Alpha2Match(enName))
+
+  // English Names with different casing and spaces will still return requested codes
+	fmt.Printf(`iso3166.Alpha3Match(" albania   ") - %v`, *iso3166.Alpha3Match(" albania   "))
+	fmt.Printf(`iso3166.Alpha2Match(" albania   ") - %v`, *iso3166.Alpha2Match(" albania   "))
+
+  // French Names, codes can be found via English name (frName in Struct)
+	fmt.Printf(`iso3166.Alpha3Match("Albanie (l')") - %v`, *iso3166.Alpha3Match(frName))
+	fmt.Printf(`iso3166.Alpha2Match("Albanie (l')") - %v`, *iso3166.Alpha2Match(frName))
+
+  // Alpha Codes, both can return the other:
+	fmt.Printf(`iso3166.Alpha3Match("AL") - %v`, *iso3166.Alpha3Match(alph2))
+	fmt.Printf(`iso3166.Alpha2Match("ALB") - %v`, *iso3166.Alpha2Match(alph3))
+
+  // Numeric Codes, can be used to search for codes and Structs:
+	fmt.Printf(`iso3166.Alpha3Match("AL") - %v`, *iso3166.Alpha3Match(numCode))
+	fmt.Printf(`iso3166.Alpha2Match("ALB") - %v`, *iso3166.Alpha2Match(numCode))
+
+  // Diacritics, (IN DEVELOPMENT). If A is used instead of Å then the values will still match:
+	fmt.Printf(`iso3166.Alpha2Match("Åland Islands") - %v`, *iso3166.Alpha3Match("Åland Islands"))
+	fmt.Printf(`iso3166.Alpha2Match("Åland Islands") - %v`, *iso3166.Alpha2Match("Aland Islands"))
+	fmt.Printf(`iso3166.Alpha3Match("Aland Islands") - %v`, *iso3166.Alpha3Match("Aland Islands"))
+	fmt.Printf(`iso3166.Alpha3Match("Aland Islands") - %v`, *iso3166.Alpha2Match("Aland Islands"))
+}
 ```
-**stdout**:
+
+**console**:
+
 ```stdout
-AFG
-AF
+// English Names, codes can be found via English name (enName in Struct)
+iso3166.Alpha3Match("Albania") - ALB
+iso3166.Alpha2Match("Albania") - AL
+
+// English Names with different casing and spaces will still return requested codes
+iso3166.Alpha3Match(" albania   ") - ALB
+iso3166.Alpha2Match(" albania   ") - AL
+
+// French Names, codes can be found via English name (frName in Struct)
+iso3166.Alpha3Match("Albanie (l')") - ALB
+iso3166.Alpha2Match("Albanie (l')") - AL
+
+// Alpha Codes, both can return the other:
+iso3166.Alpha3Match("AL") - ALB
+iso3166.Alpha2Match("ALB") - AL
+
+// Numeric Codes, can be used to search for codes and Structs:
+iso3166.Alpha3Match("AL") - ALB
+iso3166.Alpha2Match("ALB") - AL
+
+// Diacritics, (IN DEVELOPMENT). If A is used instead of Å then the values will still match:
+iso3166.Alpha2Match("Åland Islands") - ALA
+iso3166.Alpha2Match("Åland Islands") - AX
+iso3166.Alpha3Match("Aland Islands") - ALA
+iso3166.Alpha3Match("Aland Islands") - AX
 ```
