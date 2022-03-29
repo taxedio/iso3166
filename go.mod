@@ -1,4 +1,4 @@
-module gitlab.com/taxedio/iso3166
+module github.com/taxedio/iso3166
 
 go 1.17
 
