@@ -63,6 +63,16 @@ func main() {
 	fmt.Printf(`iso3166.Alpha2Match("Åland Islands") - %v`, *iso3166.Alpha2Match("Aland Islands"))
 	fmt.Printf(`iso3166.Alpha3Match("Aland Islands") - %v`, *iso3166.Alpha3Match("Aland Islands"))
 	fmt.Printf(`iso3166.Alpha3Match("Aland Islands") - %v`, *iso3166.Alpha2Match("Aland Islands"))
+
+  // Returning Structs, all of the rules and examples above work using the StructMatch
+	fmt.Printf(`iso3166.StructMatch("Albania") - %v`, *iso3166.StructMatch(enName))
+	fmt.Printf(`iso3166.StructMatch("  albania  ") - %v`, *iso3166.StructMatch(" albania  "))
+	fmt.Printf(`iso3166.StructMatch("Albanie (l')") - %v`, *iso3166.StructMatch(frName))
+	fmt.Printf(`iso3166.StructMatch("AL") - %v`, *iso3166.StructMatch(alph2))
+	fmt.Printf(`iso3166.StructMatch("ALB") - %v`, *iso3166.StructMatch(alph3))
+	fmt.Printf(`iso3166.StructMatch("008") - %v`, *iso3166.StructMatch(numCode))
+	fmt.Printf(`iso3166.StructMatch("Aland Islands") - %v`, *iso3166.StructMatch("Aland Islands"))
+	fmt.Printf(`iso3166.StructMatch("aland Islands  ") - %v`, *iso3166.StructMatch("aland Islands  "))
 }
 ```
 
@@ -94,4 +104,13 @@ iso3166.Alpha2Match("Åland Islands") - ALA
 iso3166.Alpha2Match("Åland Islands") - AX
 iso3166.Alpha3Match("Aland Islands") - ALA
 iso3166.Alpha3Match("Aland Islands") - AX
+
+// Returning Structs, all of the rules and examples above work using the StructMatch
+iso3166.StructMatch("Albania") - {Albania Albanie (l') AL ALB 008}
+iso3166.StructMatch("  albania  ") - {Albania Albanie (l') AL ALB 008}
+iso3166.StructMatch("Albanie (l')") - {Albania Albanie (l') AL ALB 008}
+iso3166.StructMatch("AL") - {Albania Albanie (l') AL ALB 008}
+iso3166.StructMatch("ALB") - {Albania Albanie (l') AL ALB 008}
+iso3166.StructMatch("008") - {Albania Albanie (l') AL ALB 008}
+iso3166.StructMatch("Aland Islands") - {Åland Islands Åland(les Îles) AX ALA 248}iso3166.StructMatch("aland Islands  ") - {Åland Islands Åland(les Îles) AX ALA 248}
 ```
