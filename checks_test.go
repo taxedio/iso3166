@@ -7,11 +7,11 @@ import (
 
 var (
 	Nil       *string
-	NilStruct *IsoEntry
+	NilStruct *ISOEntry
 
 	GBR       string = isocodes["GB"].alph3
 	GB        string = isocodes["GB"].alph2
-	GBRStruct        = IsoEntry{
+	GBRStruct        = ISOEntry{
 		enName:  isocodes["GB"].enName,
 		frName:  isocodes["GB"].frName,
 		alph2:   isocodes["GB"].alph2,
@@ -21,7 +21,7 @@ var (
 
 	USA       string = isocodes["US"].alph3
 	US        string = isocodes["US"].alph2
-	USAStruct        = IsoEntry{
+	USAStruct        = ISOEntry{
 		enName:  isocodes["US"].enName,
 		frName:  isocodes["US"].frName,
 		alph2:   isocodes["US"].alph2,
@@ -31,7 +31,7 @@ var (
 
 	ALA       string = isocodes["AX"].alph3
 	AX        string = isocodes["AX"].alph2
-	ALAStruct        = IsoEntry{
+	ALAStruct        = ISOEntry{
 		enName:  isocodes["AX"].enName,
 		frName:  isocodes["AX"].frName,
 		alph2:   isocodes["AX"].alph2,
@@ -41,7 +41,7 @@ var (
 
 	BHR       string = isocodes["BH"].alph3
 	BH        string = isocodes["BH"].alph2
-	BHRStruct        = IsoEntry{
+	BHRStruct        = ISOEntry{
 		enName:  isocodes["BH"].enName,
 		frName:  isocodes["BH"].frName,
 		alph2:   isocodes["BH"].alph2,
@@ -111,7 +111,7 @@ func TestStructMatch(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
-		want *IsoEntry
+		want *ISOEntry
 	}{
 		{"GBR Test", args{s: "gb"}, &GBRStruct},
 		{"GBR Test", args{s: "826"}, &GBRStruct},
