@@ -77,50 +77,19 @@ func Alpha2Match(s string) *string {
 // Check map for Alpha3 Match and return ISO
 // example, "gb" will return GBR Struct
 func StructMatch(s string) *ISOEntry {
-	var (
-		entry ISOEntry
-	)
 	s = strings.ToLower(strings.TrimSpace(s))
 	for _, val := range isocodes {
 		if s == strings.ToLower(val.alph2) || s == strings.ToLower(val.alph3) {
-			entry = ISOEntry{
-				enName:  val.enName,
-				frName:  val.frName,
-				alph2:   val.alph2,
-				alph3:   val.alph3,
-				numCode: val.numCode,
-			}
-			return &entry
+			return &val
 		}
 		if s == strings.ToLower(strings.TrimSpace(convertDia(val.enName))) || s == strings.ToLower(strings.TrimSpace(convertDia(val.frName))) {
-			entry = ISOEntry{
-				enName:  val.enName,
-				frName:  val.frName,
-				alph2:   val.alph2,
-				alph3:   val.alph3,
-				numCode: val.numCode,
-			}
-			return &entry
+			return &val
 		}
 		if s == strings.ToLower(strings.TrimSpace(val.enName)) || s == strings.ToLower(strings.TrimSpace(val.frName)) {
-			entry = ISOEntry{
-				enName:  val.enName,
-				frName:  val.frName,
-				alph2:   val.alph2,
-				alph3:   val.alph3,
-				numCode: val.numCode,
-			}
-			return &entry
+			return &val
 		}
 		if s == strings.ToLower(strings.TrimSpace(val.numCode)) {
-			entry = ISOEntry{
-				enName:  val.enName,
-				frName:  val.frName,
-				alph2:   val.alph2,
-				alph3:   val.alph3,
-				numCode: val.numCode,
-			}
-			return &entry
+			return &val
 		}
 
 	}
