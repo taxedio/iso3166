@@ -9,6 +9,7 @@ type ISOEntry struct {
 	official     bool
 	active       bool
 	organisation string
+	description  string
 }
 
 var (
@@ -21,6 +22,7 @@ var (
 			numCode:      "004",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AL": {
@@ -31,6 +33,7 @@ var (
 			numCode:      "008",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"DZ": {
@@ -41,6 +44,7 @@ var (
 			numCode:      "012",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AS": {
@@ -51,6 +55,7 @@ var (
 			numCode:      "016",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AD": {
@@ -61,6 +66,7 @@ var (
 			numCode:      "020",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AO": {
@@ -71,6 +77,7 @@ var (
 			numCode:      "024",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AI": {
@@ -81,6 +88,7 @@ var (
 			numCode:      "660",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AQ": {
@@ -91,6 +99,7 @@ var (
 			numCode:      "010",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AG": {
@@ -101,6 +110,7 @@ var (
 			numCode:      "028",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AR": {
@@ -111,6 +121,7 @@ var (
 			numCode:      "032",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AM": {
@@ -121,6 +132,7 @@ var (
 			numCode:      "051",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AW": {
@@ -131,6 +143,7 @@ var (
 			numCode:      "533",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AU": {
@@ -141,6 +154,7 @@ var (
 			numCode:      "036",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AT": {
@@ -151,6 +165,7 @@ var (
 			numCode:      "040",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AZ": {
@@ -161,6 +176,7 @@ var (
 			numCode:      "031",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BS": {
@@ -171,6 +187,7 @@ var (
 			numCode:      "044",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BH": {
@@ -181,6 +198,7 @@ var (
 			numCode:      "048",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BD": {
@@ -191,6 +209,7 @@ var (
 			numCode:      "050",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BB": {
@@ -201,6 +220,7 @@ var (
 			numCode:      "052",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BY": {
@@ -211,6 +231,7 @@ var (
 			numCode:      "112",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BE": {
@@ -221,6 +242,7 @@ var (
 			numCode:      "056",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BZ": {
@@ -231,6 +253,7 @@ var (
 			numCode:      "084",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BJ": {
@@ -241,6 +264,7 @@ var (
 			numCode:      "204",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BM": {
@@ -251,6 +275,7 @@ var (
 			numCode:      "060",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AX": {
@@ -261,6 +286,7 @@ var (
 			numCode:      "248",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BT": {
@@ -271,6 +297,7 @@ var (
 			numCode:      "064",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BO": {
@@ -281,6 +308,7 @@ var (
 			numCode:      "068",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BQ": {
@@ -291,6 +319,7 @@ var (
 			numCode:      "535",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BA": {
@@ -301,6 +330,7 @@ var (
 			numCode:      "070",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BW": {
@@ -311,6 +341,7 @@ var (
 			numCode:      "072",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BV": {
@@ -321,6 +352,7 @@ var (
 			numCode:      "074",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BR": {
@@ -331,6 +363,7 @@ var (
 			numCode:      "076",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IO": {
@@ -341,6 +374,7 @@ var (
 			numCode:      "086",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BN": {
@@ -351,6 +385,7 @@ var (
 			numCode:      "096",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BG": {
@@ -361,6 +396,7 @@ var (
 			numCode:      "100",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BF": {
@@ -371,6 +407,7 @@ var (
 			numCode:      "854",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BI": {
@@ -381,6 +418,7 @@ var (
 			numCode:      "108",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CV": {
@@ -391,6 +429,7 @@ var (
 			numCode:      "132",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KH": {
@@ -401,6 +440,7 @@ var (
 			numCode:      "116",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CM": {
@@ -411,6 +451,7 @@ var (
 			numCode:      "120",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CA": {
@@ -421,6 +462,7 @@ var (
 			numCode:      "124",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KY": {
@@ -431,6 +473,7 @@ var (
 			numCode:      "136",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CF": {
@@ -441,6 +484,7 @@ var (
 			numCode:      "140",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TD": {
@@ -451,6 +495,7 @@ var (
 			numCode:      "148",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CL": {
@@ -461,6 +506,7 @@ var (
 			numCode:      "152",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CN": {
@@ -471,6 +517,7 @@ var (
 			numCode:      "156",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CX": {
@@ -481,6 +528,7 @@ var (
 			numCode:      "162",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CC": {
@@ -491,6 +539,7 @@ var (
 			numCode:      "166",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CO": {
@@ -501,6 +550,7 @@ var (
 			numCode:      "170",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KM": {
@@ -511,6 +561,7 @@ var (
 			numCode:      "174",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CD": {
@@ -521,6 +572,7 @@ var (
 			numCode:      "180",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CG": {
@@ -531,6 +583,7 @@ var (
 			numCode:      "178",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CK": {
@@ -541,6 +594,7 @@ var (
 			numCode:      "184",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CR": {
@@ -551,6 +605,7 @@ var (
 			numCode:      "188",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"HR": {
@@ -561,6 +616,7 @@ var (
 			numCode:      "191",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CU": {
@@ -571,6 +627,7 @@ var (
 			numCode:      "192",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CW": {
@@ -581,6 +638,7 @@ var (
 			numCode:      "531",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CY": {
@@ -591,6 +649,7 @@ var (
 			numCode:      "196",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CZ": {
@@ -601,6 +660,7 @@ var (
 			numCode:      "203",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CI": {
@@ -611,6 +671,7 @@ var (
 			numCode:      "384",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"DK": {
@@ -621,6 +682,7 @@ var (
 			numCode:      "208",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"DJ": {
@@ -631,6 +693,7 @@ var (
 			numCode:      "262",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"DM": {
@@ -641,6 +704,7 @@ var (
 			numCode:      "212",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"DO": {
@@ -651,6 +715,7 @@ var (
 			numCode:      "214",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"EC": {
@@ -661,6 +726,7 @@ var (
 			numCode:      "218",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"EG": {
@@ -671,6 +737,7 @@ var (
 			numCode:      "818",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SV": {
@@ -681,6 +748,7 @@ var (
 			numCode:      "222",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GQ": {
@@ -691,6 +759,7 @@ var (
 			numCode:      "226",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ER": {
@@ -701,6 +770,7 @@ var (
 			numCode:      "232",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"EE": {
@@ -711,6 +781,7 @@ var (
 			numCode:      "233",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SZ": {
@@ -721,6 +792,7 @@ var (
 			numCode:      "748",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ET": {
@@ -731,6 +803,7 @@ var (
 			numCode:      "231",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"FK": {
@@ -741,6 +814,7 @@ var (
 			numCode:      "238",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"FO": {
@@ -751,6 +825,7 @@ var (
 			numCode:      "234",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"FJ": {
@@ -761,6 +836,7 @@ var (
 			numCode:      "242",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"FI": {
@@ -771,6 +847,7 @@ var (
 			numCode:      "246",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"FR": {
@@ -781,6 +858,7 @@ var (
 			numCode:      "250",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GF": {
@@ -791,6 +869,7 @@ var (
 			numCode:      "254",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PF": {
@@ -801,6 +880,7 @@ var (
 			numCode:      "258",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TF": {
@@ -811,6 +891,7 @@ var (
 			numCode:      "260",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GA": {
@@ -821,6 +902,7 @@ var (
 			numCode:      "266",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GM": {
@@ -831,6 +913,7 @@ var (
 			numCode:      "270",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GE": {
@@ -841,6 +924,7 @@ var (
 			numCode:      "268",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"DE": {
@@ -851,6 +935,7 @@ var (
 			numCode:      "276",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GH": {
@@ -861,6 +946,7 @@ var (
 			numCode:      "288",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GI": {
@@ -871,6 +957,7 @@ var (
 			numCode:      "292",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GR": {
@@ -881,6 +968,7 @@ var (
 			numCode:      "300",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GL": {
@@ -891,6 +979,7 @@ var (
 			numCode:      "304",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GD": {
@@ -901,6 +990,7 @@ var (
 			numCode:      "308",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GP": {
@@ -911,6 +1001,7 @@ var (
 			numCode:      "312",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GU": {
@@ -921,6 +1012,7 @@ var (
 			numCode:      "316",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GT": {
@@ -931,6 +1023,7 @@ var (
 			numCode:      "320",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GG": {
@@ -941,6 +1034,7 @@ var (
 			numCode:      "831",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GN": {
@@ -951,6 +1045,7 @@ var (
 			numCode:      "324",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GW": {
@@ -961,6 +1056,7 @@ var (
 			numCode:      "624",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GY": {
@@ -971,6 +1067,7 @@ var (
 			numCode:      "328",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"HT": {
@@ -981,6 +1078,7 @@ var (
 			numCode:      "332",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"HM": {
@@ -991,6 +1089,7 @@ var (
 			numCode:      "334",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VA": {
@@ -1001,6 +1100,7 @@ var (
 			numCode:      "336",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"HN": {
@@ -1011,6 +1111,7 @@ var (
 			numCode:      "340",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"HK": {
@@ -1021,6 +1122,7 @@ var (
 			numCode:      "344",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"HU": {
@@ -1031,6 +1133,7 @@ var (
 			numCode:      "348",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IS": {
@@ -1041,6 +1144,7 @@ var (
 			numCode:      "352",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IN": {
@@ -1051,6 +1155,7 @@ var (
 			numCode:      "356",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ID": {
@@ -1061,6 +1166,7 @@ var (
 			numCode:      "360",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IR": {
@@ -1071,6 +1177,7 @@ var (
 			numCode:      "364",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IQ": {
@@ -1081,6 +1188,7 @@ var (
 			numCode:      "368",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IE": {
@@ -1091,6 +1199,7 @@ var (
 			numCode:      "372",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IM": {
@@ -1101,6 +1210,7 @@ var (
 			numCode:      "833",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IL": {
@@ -1111,6 +1221,7 @@ var (
 			numCode:      "376",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"IT": {
@@ -1121,6 +1232,7 @@ var (
 			numCode:      "380",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"JM": {
@@ -1131,6 +1243,7 @@ var (
 			numCode:      "388",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"JP": {
@@ -1141,6 +1254,7 @@ var (
 			numCode:      "392",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"JE": {
@@ -1151,6 +1265,7 @@ var (
 			numCode:      "832",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"JO": {
@@ -1161,6 +1276,7 @@ var (
 			numCode:      "400",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KZ": {
@@ -1171,6 +1287,7 @@ var (
 			numCode:      "398",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KE": {
@@ -1181,6 +1298,7 @@ var (
 			numCode:      "404",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KI": {
@@ -1191,6 +1309,7 @@ var (
 			numCode:      "296",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KP": {
@@ -1201,6 +1320,7 @@ var (
 			numCode:      "408",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KR": {
@@ -1211,6 +1331,7 @@ var (
 			numCode:      "410",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KW": {
@@ -1221,6 +1342,7 @@ var (
 			numCode:      "414",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KG": {
@@ -1231,6 +1353,7 @@ var (
 			numCode:      "417",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LA": {
@@ -1241,6 +1364,7 @@ var (
 			numCode:      "418",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LV": {
@@ -1251,6 +1375,7 @@ var (
 			numCode:      "428",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LB": {
@@ -1261,6 +1386,7 @@ var (
 			numCode:      "422",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LS": {
@@ -1271,6 +1397,7 @@ var (
 			numCode:      "426",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LR": {
@@ -1281,6 +1408,7 @@ var (
 			numCode:      "430",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LY": {
@@ -1291,6 +1419,7 @@ var (
 			numCode:      "434",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LI": {
@@ -1301,6 +1430,7 @@ var (
 			numCode:      "438",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LT": {
@@ -1311,6 +1441,7 @@ var (
 			numCode:      "440",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LU": {
@@ -1321,6 +1452,7 @@ var (
 			numCode:      "442",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MO": {
@@ -1331,6 +1463,7 @@ var (
 			numCode:      "446",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MG": {
@@ -1341,6 +1474,7 @@ var (
 			numCode:      "450",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MW": {
@@ -1351,6 +1485,7 @@ var (
 			numCode:      "454",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MY": {
@@ -1361,6 +1496,7 @@ var (
 			numCode:      "458",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MV": {
@@ -1371,6 +1507,7 @@ var (
 			numCode:      "462",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ML": {
@@ -1381,6 +1518,7 @@ var (
 			numCode:      "466",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MT": {
@@ -1391,6 +1529,7 @@ var (
 			numCode:      "470",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MH": {
@@ -1401,6 +1540,7 @@ var (
 			numCode:      "584",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MQ": {
@@ -1411,6 +1551,7 @@ var (
 			numCode:      "474",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MR": {
@@ -1421,6 +1562,7 @@ var (
 			numCode:      "478",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MU": {
@@ -1431,6 +1573,7 @@ var (
 			numCode:      "480",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"YT": {
@@ -1441,6 +1584,7 @@ var (
 			numCode:      "175",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MX": {
@@ -1451,6 +1595,7 @@ var (
 			numCode:      "484",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"FM": {
@@ -1461,6 +1606,7 @@ var (
 			numCode:      "583",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MD": {
@@ -1471,6 +1617,7 @@ var (
 			numCode:      "498",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MC": {
@@ -1481,6 +1628,7 @@ var (
 			numCode:      "492",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MN": {
@@ -1491,6 +1639,7 @@ var (
 			numCode:      "496",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ME": {
@@ -1501,6 +1650,7 @@ var (
 			numCode:      "499",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MS": {
@@ -1511,6 +1661,7 @@ var (
 			numCode:      "500",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MA": {
@@ -1521,6 +1672,7 @@ var (
 			numCode:      "504",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MZ": {
@@ -1531,6 +1683,7 @@ var (
 			numCode:      "508",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MM": {
@@ -1541,6 +1694,7 @@ var (
 			numCode:      "104",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NA": {
@@ -1551,6 +1705,7 @@ var (
 			numCode:      "516",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NR": {
@@ -1561,6 +1716,7 @@ var (
 			numCode:      "520",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NP": {
@@ -1571,6 +1727,7 @@ var (
 			numCode:      "524",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NL": {
@@ -1581,6 +1738,7 @@ var (
 			numCode:      "528",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NC": {
@@ -1591,6 +1749,7 @@ var (
 			numCode:      "540",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NZ": {
@@ -1601,6 +1760,7 @@ var (
 			numCode:      "554",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NI": {
@@ -1611,6 +1771,7 @@ var (
 			numCode:      "558",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NE": {
@@ -1621,6 +1782,7 @@ var (
 			numCode:      "562",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NG": {
@@ -1631,6 +1793,7 @@ var (
 			numCode:      "566",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NU": {
@@ -1641,6 +1804,7 @@ var (
 			numCode:      "570",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NF": {
@@ -1651,6 +1815,7 @@ var (
 			numCode:      "574",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MK": {
@@ -1661,6 +1826,7 @@ var (
 			numCode:      "807",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MP": {
@@ -1671,6 +1837,7 @@ var (
 			numCode:      "580",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"NO": {
@@ -1681,6 +1848,7 @@ var (
 			numCode:      "578",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"OM": {
@@ -1691,6 +1859,7 @@ var (
 			numCode:      "512",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PK": {
@@ -1701,6 +1870,7 @@ var (
 			numCode:      "586",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PW": {
@@ -1711,6 +1881,7 @@ var (
 			numCode:      "585",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PS": {
@@ -1721,6 +1892,7 @@ var (
 			numCode:      "275",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PA": {
@@ -1731,6 +1903,7 @@ var (
 			numCode:      "591",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PG": {
@@ -1741,6 +1914,7 @@ var (
 			numCode:      "598",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PY": {
@@ -1751,6 +1925,7 @@ var (
 			numCode:      "600",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PE": {
@@ -1761,6 +1936,7 @@ var (
 			numCode:      "604",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PH": {
@@ -1771,6 +1947,7 @@ var (
 			numCode:      "608",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PN": {
@@ -1781,6 +1958,7 @@ var (
 			numCode:      "612",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PL": {
@@ -1791,6 +1969,7 @@ var (
 			numCode:      "616",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PT": {
@@ -1801,6 +1980,7 @@ var (
 			numCode:      "620",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PR": {
@@ -1811,6 +1991,7 @@ var (
 			numCode:      "630",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"QA": {
@@ -1821,6 +2002,7 @@ var (
 			numCode:      "634",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"RO": {
@@ -1831,6 +2013,7 @@ var (
 			numCode:      "642",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"RU": {
@@ -1841,6 +2024,7 @@ var (
 			numCode:      "643",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"RW": {
@@ -1851,6 +2035,7 @@ var (
 			numCode:      "646",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"RE": {
@@ -1861,6 +2046,7 @@ var (
 			numCode:      "638",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"BL": {
@@ -1871,6 +2057,7 @@ var (
 			numCode:      "652",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SH": {
@@ -1881,6 +2068,7 @@ var (
 			numCode:      "654",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"KN": {
@@ -1891,6 +2079,7 @@ var (
 			numCode:      "659",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LC": {
@@ -1901,6 +2090,7 @@ var (
 			numCode:      "662",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"MF": {
@@ -1911,6 +2101,7 @@ var (
 			numCode:      "663",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"PM": {
@@ -1921,6 +2112,7 @@ var (
 			numCode:      "666",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VC": {
@@ -1931,6 +2123,7 @@ var (
 			numCode:      "670",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"WS": {
@@ -1941,6 +2134,7 @@ var (
 			numCode:      "882",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SM": {
@@ -1951,6 +2145,7 @@ var (
 			numCode:      "674",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ST": {
@@ -1961,6 +2156,7 @@ var (
 			numCode:      "678",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SA": {
@@ -1971,6 +2167,7 @@ var (
 			numCode:      "682",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SN": {
@@ -1981,6 +2178,7 @@ var (
 			numCode:      "686",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"RS": {
@@ -1991,6 +2189,7 @@ var (
 			numCode:      "688",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SC": {
@@ -2001,6 +2200,7 @@ var (
 			numCode:      "690",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SL": {
@@ -2011,6 +2211,7 @@ var (
 			numCode:      "694",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SG": {
@@ -2021,6 +2222,7 @@ var (
 			numCode:      "702",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SX": {
@@ -2031,6 +2233,7 @@ var (
 			numCode:      "534",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SK": {
@@ -2041,6 +2244,7 @@ var (
 			numCode:      "703",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SI": {
@@ -2051,6 +2255,7 @@ var (
 			numCode:      "705",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SB": {
@@ -2061,6 +2266,7 @@ var (
 			numCode:      "090",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SO": {
@@ -2071,6 +2277,7 @@ var (
 			numCode:      "706",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ZA": {
@@ -2081,6 +2288,7 @@ var (
 			numCode:      "710",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GS": {
@@ -2091,6 +2299,7 @@ var (
 			numCode:      "239",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SS": {
@@ -2101,6 +2310,7 @@ var (
 			numCode:      "728",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ES": {
@@ -2111,6 +2321,7 @@ var (
 			numCode:      "724",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"LK": {
@@ -2121,6 +2332,7 @@ var (
 			numCode:      "144",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SD": {
@@ -2131,6 +2343,7 @@ var (
 			numCode:      "729",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SR": {
@@ -2141,6 +2354,7 @@ var (
 			numCode:      "740",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SJ": {
@@ -2151,6 +2365,7 @@ var (
 			numCode:      "744",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SE": {
@@ -2161,6 +2376,7 @@ var (
 			numCode:      "752",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"CH": {
@@ -2171,6 +2387,7 @@ var (
 			numCode:      "756",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"SY": {
@@ -2181,6 +2398,7 @@ var (
 			numCode:      "760",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TW": {
@@ -2191,6 +2409,7 @@ var (
 			numCode:      "158",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TJ": {
@@ -2201,6 +2420,7 @@ var (
 			numCode:      "762",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TZ": {
@@ -2211,6 +2431,7 @@ var (
 			numCode:      "834",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TH": {
@@ -2221,6 +2442,7 @@ var (
 			numCode:      "764",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TL": {
@@ -2231,6 +2453,7 @@ var (
 			numCode:      "626",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TG": {
@@ -2241,6 +2464,7 @@ var (
 			numCode:      "768",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TK": {
@@ -2251,6 +2475,7 @@ var (
 			numCode:      "772",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TO": {
@@ -2261,6 +2486,7 @@ var (
 			numCode:      "776",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TT": {
@@ -2271,6 +2497,7 @@ var (
 			numCode:      "780",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TN": {
@@ -2281,6 +2508,7 @@ var (
 			numCode:      "788",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TR": {
@@ -2291,6 +2519,7 @@ var (
 			numCode:      "792",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TM": {
@@ -2301,6 +2530,7 @@ var (
 			numCode:      "795",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TC": {
@@ -2311,6 +2541,7 @@ var (
 			numCode:      "796",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"TV": {
@@ -2321,6 +2552,7 @@ var (
 			numCode:      "798",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"UG": {
@@ -2331,6 +2563,7 @@ var (
 			numCode:      "800",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"UA": {
@@ -2341,6 +2574,7 @@ var (
 			numCode:      "804",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"AE": {
@@ -2351,6 +2585,7 @@ var (
 			numCode:      "784",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"GB": {
@@ -2361,6 +2596,7 @@ var (
 			numCode:      "826",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"UM": {
@@ -2371,6 +2607,7 @@ var (
 			numCode:      "581",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"US": {
@@ -2381,6 +2618,7 @@ var (
 			numCode:      "840",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"UY": {
@@ -2391,6 +2629,7 @@ var (
 			numCode:      "858",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"UZ": {
@@ -2401,6 +2640,7 @@ var (
 			numCode:      "860",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VU": {
@@ -2411,6 +2651,7 @@ var (
 			numCode:      "548",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VE": {
@@ -2421,6 +2662,7 @@ var (
 			numCode:      "862",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VN": {
@@ -2431,6 +2673,7 @@ var (
 			numCode:      "704",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VG": {
@@ -2441,6 +2684,7 @@ var (
 			numCode:      "092",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"VI": {
@@ -2451,6 +2695,7 @@ var (
 			numCode:      "850",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"WF": {
@@ -2461,6 +2706,7 @@ var (
 			numCode:      "876",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"EH": {
@@ -2471,6 +2717,7 @@ var (
 			numCode:      "732",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"YE": {
@@ -2481,6 +2728,7 @@ var (
 			numCode:      "887",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ZM": {
@@ -2491,6 +2739,7 @@ var (
 			numCode:      "894",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
 		},
 		"ZW": {
@@ -2501,7 +2750,19 @@ var (
 			numCode:      "716",
 			official:     true,
 			active:       true,
+			description:  "Official ISO Code",
 			organisation: "ISO",
+		},
+		"X5": {
+			enName:       "stateless",
+			frName:       "stateless",
+			alph2:        "X5",
+			alph3:        "XX5",
+			numCode:      "XX5",
+			official:     false,
+			active:       true,
+			description:  "code used to describe stateless entities in country-by-country reporting",
+			organisation: "OECD",
 		},
 	}
 )
