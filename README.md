@@ -112,5 +112,6 @@ iso3166.StructMatch("Albanie (l')") - {Albania Albanie (l') AL ALB 008}
 iso3166.StructMatch("AL") - {Albania Albanie (l') AL ALB 008}
 iso3166.StructMatch("ALB") - {Albania Albanie (l') AL ALB 008}
 iso3166.StructMatch("008") - {Albania Albanie (l') AL ALB 008}
-iso3166.StructMatch("Aland Islands") - {Åland Islands Åland(les Îles) AX ALA 248}iso3166.StructMatch("aland Islands  ") - {Åland Islands Åland(les Îles) AX ALA 248}
+iso3166.StructMatch("Aland Islands") - {Åland Islands Åland(les Îles) AX ALA 248}
+iso3166.StructMatch("aland Islands  ") - {Åland Islands Åland(les Îles) AX ALA 248}
 ```

@@ -11,43 +11,19 @@ var (
 
 	GBR       string = isocodes["GB"].alph3
 	GB        string = isocodes["GB"].alph2
-	GBRStruct        = ISOEntry{
-		enName:  isocodes["GB"].enName,
-		frName:  isocodes["GB"].frName,
-		alph2:   isocodes["GB"].alph2,
-		alph3:   isocodes["GB"].alph3,
-		numCode: isocodes["GB"].numCode,
-	}
+	GBRStruct        = isocodes["GB"]
 
 	USA       string = isocodes["US"].alph3
 	US        string = isocodes["US"].alph2
-	USAStruct        = ISOEntry{
-		enName:  isocodes["US"].enName,
-		frName:  isocodes["US"].frName,
-		alph2:   isocodes["US"].alph2,
-		alph3:   isocodes["US"].alph3,
-		numCode: isocodes["US"].numCode,
-	}
+	USAStruct        = isocodes["US"]
 
 	ALA       string = isocodes["AX"].alph3
 	AX        string = isocodes["AX"].alph2
-	ALAStruct        = ISOEntry{
-		enName:  isocodes["AX"].enName,
-		frName:  isocodes["AX"].frName,
-		alph2:   isocodes["AX"].alph2,
-		alph3:   isocodes["AX"].alph3,
-		numCode: isocodes["AX"].numCode,
-	}
+	ALAStruct        = isocodes["AX"]
 
 	BHR       string = isocodes["BH"].alph3
 	BH        string = isocodes["BH"].alph2
-	BHRStruct        = ISOEntry{
-		enName:  isocodes["BH"].enName,
-		frName:  isocodes["BH"].frName,
-		alph2:   isocodes["BH"].alph2,
-		alph3:   isocodes["BH"].alph3,
-		numCode: isocodes["BH"].numCode,
-	}
+	BHRStruct        = isocodes["BH"]
 )
 
 func TestAlpha3Match(t *testing.T) {
