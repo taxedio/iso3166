@@ -24,6 +24,10 @@ var (
 	BHR       string = isocodes["BH"].alph3
 	BH        string = isocodes["BH"].alph2
 	BHRStruct        = isocodes["BH"]
+
+	BQ        string = isocodes["BQ"].alph2
+	BES       string = isocodes["BQ"].alph3
+	BESStruct        = isocodes["BQ"]
 )
 
 func TestAlpha3Match(t *testing.T) {
@@ -43,6 +47,8 @@ func TestAlpha3Match(t *testing.T) {
 		{"Åland Islands Test", args{s: "Åland Islands"}, &ALA},
 		{"Bahreïn Test", args{s: "Bahreïn"}, &BHR},
 		{"Bahreïn Test (FR)", args{s: "Bahrein"}, &BHR},
+		{"Bonaire, Sint Eustatius and Saba", args{s: "Bonaire, Sint Eustatius and Saba"}, &BES},
+		{"Bonaire, Sint Eustatius and Saba (FR)", args{s: "Bonaire, Sint Eustatius and Saba"}, &BES},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

@@ -312,8 +312,8 @@ var (
 			organisation: "ISO",
 		},
 		"BQ": {
-			enName:       "Bonaire, Sint Eustatius and SabaBonaire",
-			frName:       " Saint-Eustache et Saba",
+			enName:       "Bonaire, Sint Eustatius and Saba",
+			frName:       "Bonaire, Saint-Eustache et Saba",
 			alph2:        "BQ",
 			alph3:        "BES",
 			numCode:      "535",
