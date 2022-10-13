@@ -95,3 +95,10 @@ func StructMatch(s string) *ISOEntry {
 	}
 	return nil
 }
+
+func Lookup3From2(alph2 string) string {
+	if c, exists := isocodes[alph2]; exists {
+		return c.alph3
+	}
+	return ""
+}
