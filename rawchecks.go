@@ -13,7 +13,7 @@ func RawAlpha3Match(s string) string {
 	return ""
 }
 
-// Check map for Alpha3 Match and returns Alpha3 code as string
+// Check map for Alpha3 Match and returns Alpha2 code as string
 // example, "gb" will return "GB"
 func RawAlpha2Match(s string) string {
 	if c, exists := isocodes[strings.ToUpper(s)]; exists {
